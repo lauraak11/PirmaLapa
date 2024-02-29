@@ -72,11 +72,11 @@ table{
   border-collapse: collapse;
   margin: 0 auto;
 }
-th, td {
+th, td, tr {
   background-color: #7bb481;
   border: 5px solid #4f6d53;
   box-shadow: 1px 1px 3px #1e2e20;
 }
-tr:hover {
+td:hover {
 background-color: #83e18c;
 }
