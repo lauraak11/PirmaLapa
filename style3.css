@@ -1,0 +1,25 @@
+body {
+    background-color: #FEA564;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img {
+    max-width: 15cm;
+    max-height: 15cm;
+}
+h1 {
+    color: #8f5124;
+    font-style: italic;
+}
+img:hover {
+    transform: scaleX(-1);
+  }
+.column {
+    float: none;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

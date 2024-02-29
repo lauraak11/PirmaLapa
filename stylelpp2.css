@@ -1,0 +1,48 @@
+body{
+    background-color: #B5DFBA;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #475E4A;
+    font-style: italic;
+}
+h3 {
+    font-style: italic;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+a{
+    color: #2c422f;
+}
+
+img {
+    max-width: 15cm;
+    max-height: 15cm;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation: anim 2s infinite linear;
+}
+.anim {
+    animation-duration: 2s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+@keyframes anim {
+    from {
+    margin-left: -100%;
+    width: auto;
+    }
+    
+    to {
+    margin-left: 100%;
+    width: auto;
+    }
+}
